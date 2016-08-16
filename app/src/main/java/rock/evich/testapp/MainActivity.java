@@ -9,7 +9,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    private String hiText = "Hi! This is me";
+    private String welcomeText = "Hi! This is me";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         coolBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this, hiText, Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, welcomeText, Toast.LENGTH_SHORT).show();
             }
         });
     }
