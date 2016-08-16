@@ -16,8 +16,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button coolBtn = (Button) findViewById(R.id.button);
-        coolBtn.setOnClickListener(new View.OnClickListener() {
+        Button welcomeBtn = (Button) findViewById(R.id.button);
+        welcomeBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Toast.makeText(MainActivity.this, welcomeText, Toast.LENGTH_SHORT).show();
